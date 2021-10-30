@@ -1,6 +1,7 @@
 import { convertData } from './upload-helper';
 import Publisher from './data-publisher';
 import Messenger from './messaging-wrapper';
+// DO NOT EDIT ABOVE THIS LINE
 
 const base64FormatCheck = (base64: string) => {
     return typeof base64 === 'string'

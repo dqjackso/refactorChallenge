@@ -6,6 +6,7 @@ const run = async () => {
     await Promise.all([handleData(data.DeviceID, data.data)])
 }
 // DO NOT EDIT BELOW THIS LINE
+
 console.time('START')
 Promise.resolve(run())
     .then(() => console.timeEnd('START'))

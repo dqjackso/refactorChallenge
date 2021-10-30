@@ -1,3 +1,4 @@
+// DO NOT EDIT
 export const result = {
     "DeviceID": "id-number-12345",
     "sessionsData": [
